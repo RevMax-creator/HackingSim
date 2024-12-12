@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/hackers');
+
+        body {
+            font-size: xx-large;
+            font-family: 'Hackers', sans-serif;
+            background-color: #00ff00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .message {
+            text-align: center;
+        }
+
+        .dot {
+            animation: blink 3s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <span class="dot">.</span><span class="dot1">.</span><span class="dot2">.</span> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
